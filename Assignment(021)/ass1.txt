@@ -1,0 +1,170 @@
+<!DOCTYPE html><!--1-->
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Portfolio)</title><br>Pannawat Inprai </br>
+        <meta name="description" content="Portfolio แนะนำตัวของปัณณวัฒน์ อินทร์ไพร นักศึกษาวิทยาการคอมพิวเตอร์">
+</head>
+
+<body><!--3-->
+       <hr>        
+        <header>
+            <section id = "Home">
+            <img src="image/รูปตัวเอง.jpg" alt="รูปตัวเอง"width="250">
+            <h1>Header Section</h1>
+            <h2>ปัณณวัฒน์ อินทร์ไพร</h2>
+            <p>Student ID: 674245021</p>
+            <p>สาขาวิชาวิทยาการคอมพิวเตอร์</p></section>            
+        </header>
+     <hr>
+        <nav>
+            <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+<main>
+
+    <!-- About -->
+    <section id="About">
+        <h2>About Me</h2>
+
+        <p>
+            ชื่อนายปัณณวัฒน์ อินทร์ไพร ชื่อเล่น ไอซ์ กำเนิดเกิดเมื่อวันจันทร์ที่ 24 พฤษภาคม พ.ศ.254ึ
+            ภูมิลำเนาเป็นคน ต.หนองปากโลง อ.เมือง จ.นครปฐม
+
+            ศึกษาระดับมัธยมศึกษาตอนต้นและตอนปลาย ที่โรงเรียนศรีวิชัยวิทยา จ.นครปฐม 
+
+            ปัจจุบันกำลังศึกษาระดับปริญญาตรี
+            คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิชาวิทยาการคอมพิวเตอร์
+            มหาวิทยาลัยราชภัฏนครปฐม
+
+            เป้าหมายของผมคือการเขียนโปรแกรมให้มีประสิทธิภาพและสามารถแก้ไขปัญหาต่างๆได้อย่างรวดเร็ว
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Education -->
+    <section id="Education">
+        <h2>Education</h2>
+
+        <table border="1">
+            <tr>
+                <th>ระดับการศึกษา</th>
+                <th>สาขา</th>
+                <th>สถานศึกษา</th>
+            </tr>
+
+            <tr>
+                <td>มัธยมศึกษาตอนต้น</td>  
+                <td>วิทยาศาสตร์ และ คณิตศาสตร์</td>
+                <td>
+                    <a href="http://www.swc.ac.th/">
+                        โรงเรียนศรีวิชัยวิทยา
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>มัธยมศึกษาตอนปลาย</td>
+                <td>วิทยาศาสตร์ และ คณิตศาสตร์</td>
+                <td>
+                    <a href="http://www.swc.ac.th/">
+                        โรงเรียนศรีวิชัยวิทยา
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Skills -->
+    <section id="Skills">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>SQL </li>
+        </ul>
+    </section>
+    
+    <hr>
+
+    <!-- Projects -->
+    <section id="Projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>โครงสร้างเว็บไซต์</h3>
+            <p>VSCode/Codeblock</p>
+        </article>
+        <article>
+            <h3>ออกแบบ UX/UI</h3>
+            <p> Figma</p>
+        </article>
+    </section>
+    <hr>
+    <!-- Contact -->     
+    <section id="Contact">
+        <h2>Contact Form</h2>
+
+        <form>
+
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="subject">Subject</label><br>
+            <select id="subject" name="subject">
+                <option value="Discrete Mathematics">Discrete Mathematics</option>
+                <option value="Calculus">Calculus</option>
+                <option value="Computer Programming">Computer Programming</option>
+                <option value="Object-Oriented Programming">Object-Oriented Programming (OOP)</option>
+                <option value="Computer Architecture">Computer Architecture</option>
+                <option value="Artificial Intelligence">Artificial Intelligence (AI)</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Submit</button>   
+
+        </form>
+    </section>
+</main>
+<footer>
+    <h1>ช่องทางการติดต่อ</h1>
+    <a href="https://www.facebook.com/i.ice.pannawat.2024/" target="_blank">
+        <img src="image/logo fb.png" width="50"> Iice Pannawat</a>
+        <br>
+    <a href="https://www.instagram.com/i.icepnw/" target="_blank">
+        <img src="image/logo ig.png" width="50"> i.icepnw</a>
+        <br>
+        <img src="image/phone.  png" width="50"> 063-1389612
+</body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Thankyous for open Website</h1>
+    วันที่และเวลา
+    <p id="currentTime"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
