@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arttoy</title>
+</head>
+<body>
+    <script>
+        let arttoys=["Labubu","Crybaby","Molly","Skullpanda","Hirono"];
+let prices=[800,1250,750,590,950];
+let quantities=[15,8,20,12,7];
+
+// 1) แสดงสินค้าทั้งหมดโดยแสดงชื่อสินค้าและราคา
+document.write("1) รายการสินค้าทั้งหมด<br>");
+
+for(let i=0; i<arttoys.length; i++){
+    document.write(arttoys[i] + " ราคา " + prices[i] + " บาท<br>");
+}
+
+// 2) แสดงมูลค่ารวมของสินค้าแต่ละรายการ และมูลค่ารวมทั้งหมด
+document.write("<br>2) มูลค่าสินค้าแต่ละรายการ<br>");
+
+let total=0;
+
+for(let i=0; i<arttoys.length; i++){
+    let value=prices[i] * quantities[i];
+    total += value;
+
+    document.write(
+        arttoys[i] + " ราคา " + prices[i] +
+        " บาท จำนวน " + quantities[i] +
+        " ชิ้น = " + value + " บาท<br>"
+    );
+}
+
+document.write("มูลค่ารวมทั้งหมด = " + total + " บาท<br>");
+
+// 3) แสดงชื่อสินค้าที่มีราคาสูงสุด
+let maxPrice = prices[0];
+let maxIndex = 0;
+
+for(let i=1; i<prices.length; i++){
+    if(prices[i] > maxPrice){
+        maxPrice = prices[i];
+        maxIndex = i;
+    }
+}
+
+document.write("<br>3) สินค้าที่มีราคาสูงสุด<br>");
+document.write(arttoys[maxIndex] + " ราคา " + maxPrice + " บาท<br>");
+
+// 4) แสดงรายการและจำนวนสินค้าที่เหลือน้อยกว่า 12 ชิ้น
+document.write("<br>4) สินค้าที่เหลือน้อยกว่า 12 ชิ้น<br>");
+
+for(let i=0; i<quantities.length; i++){
+    if(quantities[i] < 12){
+        document.write(
+            arttoys[i] + " เหลือ " + quantities[i] + " ชิ้น<br>"
+        );
+    }
+}
+    </script>
+</body>
+</html>

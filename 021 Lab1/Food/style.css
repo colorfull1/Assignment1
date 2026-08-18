@@ -1,0 +1,166 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffdf9;
+  color: #333333;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+
+/* ส่วน Header & Logo */
+header {
+  background: linear-gradient(135deg, #d32f2f, #ff6f00);
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #ff6f00;
+  background-color: #ffffff;
+  padding: 10px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffe0b2;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Layout & Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* หัวข้อหมวดหมู่ */
+.category-title {
+  color: #d32f2f;
+  font-size: 2rem;
+  margin: 35px 0 15px 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #ff6f00;
+  display: inline-block;
+}
+
+/* ตารางรายการอาหาร */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+th {
+  background-color: #ff6f00;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 14px;
+  text-align: center;
+}
+
+td {
+  padding: 18px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background-color: #fff9f5;
+}
+
+/* คอลัมน์ภายในตาราง */
+.menu-col {
+  width: 28%;
+  text-align: center;
+}
+
+.menu-col img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.menu-col h3 {
+  color: #444444;
+  font-size: 1.2rem;
+}
+
+.desc-col p {
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.desc-col strong {
+  color: #d32f2f;
+}
+
+.price-col {
+  width: 15%;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+/* ส่วน Footer */
+footer {
+  background-color: #2c3e50;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: right;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+}
+
+.footer-info span {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
